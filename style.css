@@ -1,0 +1,68 @@
+/* THIS IS HEADER */
+header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+    height: auto;
+}
+.header_container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_container .left{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.left{
+    padding-top: 10px;
+}
+.banner_container{
+    background-image: url(Img/img-academy-Kiq7qm.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_content{
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
+    top: 40px;
+    position: absolute;
+
+}
+.banner_container2 img{
+    width: 100%;
+    height: auto;
+}
+.banner_container2{
+    position: relative;
+}
+.content{
+    background-color: white;
+}
+.content .content_sidebar{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.left_sidebar, .right_sidebar{
+    width: calc(50%);
+    border: green solid 1px;
+    height: 300px;
+}
